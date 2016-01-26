@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[PropTypes.oneOf([
+    $0
+]).isRequired,]]></content>
+    <tabTrigger>ptoor</tabTrigger>
+    <scope>source.js meta.group.braces.curly.js</scope>
+    <description>React: PropTypes.oneOf([...]).isRequired</description>
+</snippet>

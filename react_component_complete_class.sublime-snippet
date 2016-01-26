@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+import React, { PropTypes } from 'react';
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends React.Component {
+	constructor(props, context) {
+		super(props, context);
+	}
+
+	render() {
+		return ${2:(
+			${3:<div>${0}</div>}
+		);}
+	}
+}
+
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
+	
+};
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}};
+
+]]></content>
+    <tabTrigger>rcc</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: complete class component</description>
+</snippet>
